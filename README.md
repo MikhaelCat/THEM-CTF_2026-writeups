@@ -36,37 +36,37 @@ This repository documents 16 solved challenges spanning offensive security, bina
 
 | Challenge | Highlights | Target / Platform | EN Writeup | RU Writeup |
 | :--- | :--- | :--- | :---: | :---: |
-| **last_dance** | Virtualized & packed Lua malware loader, custom bytecode VM reversing | Lua VM / Linux | [Read (EN)](./last_dance/writeup_en.md) | [Читать (RU)](./last_dance/writeup_ru.md) |
-| **🦀?** | Reverse engineering a compiled, stripped Rust Windows executable (`crabbymonty.exe`) | Rust / Win64 PE | [Read (EN)](./%F0%9F%A6%80%3F/writeup_en.md) | [Читать (RU)](./%F0%9F%A6%80%3F/writeup_ru.md) |
-| **Good9** | Android mobile application reversing, bytecode static & dynamic analysis | Android APK | [Read (EN)](./Good9/writeup_en.md) | [Читать (RU)](./Good9/writeup_ru.md) |
-| **Entropy Core** | Windows binary unpacker analysis, entropy calculation and secret reconstruction | Win32 PE | [Read (EN)](./Entropy%20Core/writeup_en.md) | [Читать (RU)](./Entropy%20Core/writeup_ru.md) |
-| **Eyes Chico** | Reverse engineering `1983.exe` crackme, anti-analysis checks bypass | Win32 PE | [Read (EN)](./Eyes%20Chico/writeup_en.md) | [Читать (RU)](./Eyes%20Chico/writeup_ru.md) |
-| **lesgo** | Native binary analysis of input validation logic in ELF checker | Linux ELF | [Read (EN)](./lesgo/writeup_en.md) | [Читать (RU)](./lesgo/writeup_ru.md) |
-| **Old Cassette** | Audio stream decoding, signal frequency extraction and binary recovery | Audio / Binary | [Read (EN)](./Old%20Cassette/writeup_en.md) | [Читать (RU)](./Old%20Cassette/writeup_ru.md) |
+| **last_dance** | Virtualized & packed Lua malware loader, custom bytecode VM reversing | Lua VM / Linux | [Read (EN)](./last_dance/writeup_en.md) | [Read (RU)](./last_dance/writeup_ru.md) |
+| **🦀?** | Reverse engineering a compiled, stripped Rust Windows executable (`crabbymonty.exe`) | Rust / Win64 PE | [Read (EN)](./%F0%9F%A6%80%3F/writeup_en.md) | [Read (RU)](./%F0%9F%A6%80%3F/writeup_ru.md) |
+| **Good9** | Android mobile application reversing, bytecode static & dynamic analysis | Android APK | [Read (EN)](./Good9/writeup_en.md) | [Read (RU)](./Good9/writeup_ru.md) |
+| **Entropy Core** | Windows binary unpacker analysis, entropy calculation and secret reconstruction | Win32 PE | [Read (EN)](./Entropy%20Core/writeup_en.md) | [Read (RU)](./Entropy%20Core/writeup_ru.md) |
+| **Eyes Chico** | Reverse engineering `1983.exe` crackme, anti-analysis checks bypass | Win32 PE | [Read (EN)](./Eyes%20Chico/writeup_en.md) | [Read (RU)](./Eyes%20Chico/writeup_ru.md) |
+| **lesgo** | Native binary analysis of input validation logic in ELF checker | Linux ELF | [Read (EN)](./lesgo/writeup_en.md) | [Read (RU)](./lesgo/writeup_ru.md) |
+| **Old Cassette** | Audio stream decoding, signal frequency extraction and binary recovery | Audio / Binary | [Read (EN)](./Old%20Cassette/writeup_en.md) | [Read (RU)](./Old%20Cassette/writeup_ru.md) |
 
 ### 💥 Binary Exploitation & Shellcoding
 
 | Challenge | Highlights | Target / Platform | EN Writeup | RU Writeup |
 | :--- | :--- | :--- | :---: | :---: |
-| **Baby Shellcode** | Writing custom shellcode to bypass memory restrictions and spawn shell | Linux x86_64 | [Read (EN)](./Baby%20Shellcode/writeup_en.md) | [Читать (RU)](./Baby%20Shellcode/writeup_ru.md) |
+| **Baby Shellcode** | Writing custom shellcode to bypass memory restrictions and spawn shell | Linux x86_64 | [Read (EN)](./Baby%20Shellcode/writeup_en.md) | [Read (RU)](./Baby%20Shellcode/writeup_ru.md) |
 
 ### 🌐 Web & Embedded Security
 
 | Challenge | Highlights | Vulnerability | EN Writeup | RU Writeup |
 | :--- | :--- | :--- | :---: | :---: |
-| **A Cute Magical Router Gateway** | Network router web management interface assessment | Auth Bypass & Logic Flaw | [Read (EN)](./A%20Cute%20Magical%20Router%20Gateway/writeup_en.md) | [Читать (RU)](./A%20Cute%20Magical%20Router%20Gateway/writeup_ru.md) |
-| **Revenge Of The Cute Magical Router Gateway** | Hardened router challenge with filtered parameters and state checks | Advanced Route & Header Injection | [Read (EN)](./Revenge%20Of%20The%20Cute%20Magical%20Router%20Gateway/writeup_en.md) | [Читать (RU)](./Revenge%20Of%20The%20Cute%20Magical%20Router%20Gateway/writeup_ru.md) |
-| **SEAM** | Complex multi-tier web application with session tampering & privilege escalation | Access Control Flaw (1000 pts) | [Read (EN)](./SEAM/writeup_en.md) | [Читать (RU)](./SEAM/writeup_ru.md) |
+| **A Cute Magical Router Gateway** | Network router web management interface assessment | Auth Bypass & Logic Flaw | [Read (EN)](./A%20Cute%20Magical%20Router%20Gateway/writeup_en.md) | [Read (RU)](./A%20Cute%20Magical%20Router%20Gateway/writeup_ru.md) |
+| **Revenge Of The Cute Magical Router Gateway** | Hardened router challenge with filtered parameters and state checks | Advanced Route & Header Injection | [Read (EN)](./Revenge%20Of%20The%20Cute%20Magical%20Router%20Gateway/writeup_en.md) | [Read (RU)](./Revenge%20Of%20The%20Cute%20Magical%20Router%20Gateway/writeup_ru.md) |
+| **SEAM** | Complex multi-tier web application with session tampering & privilege escalation | Access Control Flaw (1000 pts) | [Read (EN)](./SEAM/writeup_en.md) | [Read (RU)](./SEAM/writeup_ru.md) |
 
 ### 🔐 Cryptography & Forensics
 
 | Challenge | Highlights | Core Primitive | EN Writeup | RU Writeup |
 | :--- | :--- | :--- | :---: | :---: |
-| **Cascadino Chain** | Block cipher structure attack and cascade degradation | Block Cipher / Hash Chaining | [Read (EN)](./Cascadino%20Chain/writeup_en.md) | [Читать (RU)](./Cascadino%20Chain/writeup_ru.md) |
-| **No 7race** | State recovery and mathematical flaw in pseudo-random generation | PRNG Flaw | [Read (EN)](./No%207race/writeup_en.md) | [Читать (RU)](./No%207race/writeup_ru.md) |
-| **Despacito** | Cryptographic algorithm weak key scheduling attack | S-Box / Key Scheduling | [Read (EN)](./Despacito/writeup_en.md) | [Читать (RU)](./Despacito/writeup_ru.md) |
-| **Ancient Signals** | Modulated signal recovery and demodulation from telemetry transmission | Signal Analysis / Stego | [Read (EN)](./Ancient%20Signals/writeup_en.md) | [Читать (RU)](./Ancient%20Signals/writeup_ru.md) |
-| **phantom** | Container artifact extraction and hidden archive recovery | Forensics / Archive Stego | [Read (EN)](./phantom/writeup_en.md) | [Читать (RU)](./phantom/writeup_ru.md) |
+| **Cascadino Chain** | Block cipher structure attack and cascade degradation | Block Cipher / Hash Chaining | [Read (EN)](./Cascadino%20Chain/writeup_en.md) | [Read (RU)](./Cascadino%20Chain/writeup_ru.md) |
+| **No 7race** | State recovery and mathematical flaw in pseudo-random generation | PRNG Flaw | [Read (EN)](./No%207race/writeup_en.md) | [Read (RU)](./No%207race/writeup_ru.md) |
+| **Despacito** | Cryptographic algorithm weak key scheduling attack | S-Box / Key Scheduling | [Read (EN)](./Despacito/writeup_en.md) | [Read (RU)](./Despacito/writeup_ru.md) |
+| **Ancient Signals** | Modulated signal recovery and demodulation from telemetry transmission | Signal Analysis / Stego | [Read (EN)](./Ancient%20Signals/writeup_en.md) | [Read (RU)](./Ancient%20Signals/writeup_ru.md) |
+| **phantom** | Container artifact extraction and hidden archive recovery | Forensics / Archive Stego | [Read (EN)](./phantom/writeup_en.md) | [Read (RU)](./phantom/writeup_ru.md) |
 
 ---
 
